@@ -80,6 +80,31 @@ class MainActivity : AppCompatActivity() {
                 Toast.makeText(this, "초등학생 or 미취학아동 입니다.", Toast.LENGTH_SHORT).show()
             }
 
+
+//            조건식 논리 연산 예시.
+
+//            1. 급여 높음? 2. 거리가 가까움? 3. 근로시간 적으면.
+
+            val salary = 7800
+            val minutes = 80
+            val workHour = 35
+
+//            연봉 4000이상 AND 거리는 50분 이내.
+
+            if ( salary >= 4000 && minutes < 50 ) {
+                Log.d("조건문", "연봉 & 거리 모두 만족.")
+            }
+
+//            거리가 20분 이내 or 근무시간 40시간 이내.
+            if ( minutes < 20 || workHour < 40 ) {
+
+            }
+
+//            근무시간이 50시간 이상만 아니면 된다.
+            if ( !(workHour < 50) ) {
+
+            }
+
         }
 
     }
