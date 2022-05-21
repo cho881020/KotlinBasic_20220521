@@ -57,6 +57,22 @@ class MainActivity : AppCompatActivity() {
 
         }
 
+        btnCondition.setOnClickListener {
+
+            val userAge  =  35 // Int 형태.
+
+//            나이가 20살 이상이라면? => "성인입니다." 토스트로
+            if ( userAge >= 20 ) {
+
+                Toast.makeText(this, "성인입니다.", Toast.LENGTH_SHORT).show()
+
+            }
+//            그렇지 않다면? => "미성년자입니다." 토스트로
+            else {
+                Toast.makeText(this, "미성년자입니다.", Toast.LENGTH_SHORT).show()
+            }
+
+        }
 
     }
 }
