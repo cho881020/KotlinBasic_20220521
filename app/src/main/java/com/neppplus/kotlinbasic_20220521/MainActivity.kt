@@ -42,9 +42,13 @@ class MainActivity : AppCompatActivity() {
             name1 = "김철수"  // 다른 값 대입 가능
             name2 = "이영희"  // 다른 값 변경 불가
 
-
             name1 = "박철수"
 //            name2 = "최영희" // val에는 다시 대입 불가.
+
+//            name1, name2에 기록한 값 로그로 찍어보기
+
+            Log.d("변수", name1)  // 내부에 들어있는 "박철수" 출력
+            Log.d("변수", name2)
 
 
         }
