@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">KotlinBasic_20220521</string>
+    <string name="hello">안녕하세요</string>
+    <string name="goodbye">안녕히 계세요</string>
+</resources>
